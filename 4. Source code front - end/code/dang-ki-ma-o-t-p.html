@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dang-ki-ma-o-t-p.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Darker Grotesque:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dang-ki-ma-otp">
+      <div class="desktop-1">
+        <img class="wallpaper-1-icon" alt="" />
+
+        <b class="nh-ngh-hin2">NHÀ NGHỈ HIỀN QUÝ </b>
+        <img class="desktop-1-child" alt="" src="./public/rectangle-1.svg" />
+
+        <div class="ng-k">Đăng ký</div>
+        <div class="desktop-1-item"></div>
+        <div class="nhp-m-otp">Nhập mã OTP</div>
+        <div class="desktop-1-inner"></div>
+        <div class="xc-nhn" id="xcNhnText">Xác nhận</div>
+      </div>
+    </div>
+
+    <script>
+      var xcNhnText = document.getElementById("xcNhnText");
+      if (xcNhnText) {
+        xcNhnText.addEventListener("click", function (e) {
+          window.location.href = "./dang-nhap.html";
+        });
+      }
+      </script>
+  </body>
+</html>
